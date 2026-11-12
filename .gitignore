@@ -1,39 +1,31 @@
+# Archivos de construccion y binarios generados por Maven
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-.kotlin
+*.class
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+# Configuraciones locales y cache de IntelliJ IDEA
+.idea/
 *.iws
 *.iml
 *.ipr
+out/
 
-### Eclipse ###
+# Entornos Eclipse y NetBeans (por compatibilidad)
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+.settings/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+nbproject/
 
-### VS Code ###
+# Archivos de configuracion de VS Code
 .vscode/
 
-### Mac OS ###
+# Archivos basura del sistema operativo (Windows y macOS)
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs y volcados de memoria
+*.log
+*.crash
